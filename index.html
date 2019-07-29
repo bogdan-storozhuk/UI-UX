@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Design</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <a href="#print" class="print-button">
+            <svg class="icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="print"
+                class="svg-inline--fa fa-print fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path fill="currentColor"
+                    d="M448 192V77.25c0-8.49-3.37-16.62-9.37-22.63L393.37 9.37c-6-6-14.14-9.37-22.63-9.37H96C78.33 0 64 14.33 64 32v160c-35.35 0-64 28.65-64 64v112c0 8.84 7.16 16 16 16h48v96c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32v-96h48c8.84 0 16-7.16 16-16V256c0-35.35-28.65-64-64-64zm-64 256H128v-96h256v96zm0-224H128V64h192v48c0 8.84 7.16 16 16 16h48v96zm48 72c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z">
+                </path>
+            </svg>
+        </a>
+        <a class="menu-applications">Applications</a>
+        <a class="menu-calendar">Calendar</a>
+        <a class="menu-files">Files</a>
+        <a class="menu-times">Times</a>
+        <a href="#search" class="search-button">
+            <svg class="icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search"
+                class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path fill="currentColor"
+                    d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                </path>
+            </svg>
+        </a>
+        <a href="#notification" class="notification-button">
+            <svg class="icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bell"
+                class="svg-inline--fa fa-bell fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                    d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z">
+                </path>
+            </svg>
+        </a>
+        <a href="#config" class="config-button">
+            <svg class="icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cog"
+                class="svg-inline--fa fa-cog fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path fill="currentColor"
+                    d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z">
+                </path>
+            </svg>
+        </a>
+        <a href="#help" class="help-button">
+            <svg class="icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="question-circle"
+                class="svg-inline--fa fa-question-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path fill="currentColor"
+                    d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z">
+                </path>
+            </svg>
+        </a>
+    </div>
+    <div class="application-navigation">
+        <div class="application-view">All applications</div>
+        <button class="add-button"><span class="plus-sign">+</span> New</button>
+        <div class="application-sort">SORT BY</div>
+        <select class="select-element">
+            <option value="0">Active</option>
+            <option value="1">option 2</option>
+            <option value="2">option 3</option>
+        </select>
+        <button class="align-justify">
+            <svg class="icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="align-justify"
+                class="svg-inline--fa fa-align-justify fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                    d="M432 416H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z">
+                </path>
+            </svg>
+        </button>
+        <button class="border-all">
+            <svg class="icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="border-all"
+                class="svg-inline--fa fa-border-all fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                    d="M416 32H32A32 32 0 0 0 0 64v384a32 32 0 0 0 32 32h384a32 32 0 0 0 32-32V64a32 32 0 0 0-32-32zm-32 64v128H256V96zm-192 0v128H64V96zM64 416V288h128v128zm192 0V288h128v128z">
+                </path>
+            </svg>
+        </button>
+        <button class="list-elem">
+            <svg class="icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="list"
+                class="svg-inline--fa fa-list fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path fill="currentColor"
+                    d="M80 368H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm0-320H16A16 16 0 0 0 0 64v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16V64a16 16 0 0 0-16-16zm0 160H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm416 176H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-320H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16zm0 160H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z">
+                </path>
+            </svg>
+        </button>
+    </div>
+    <div class="card-wrapper">
+        <div class="card">
+            <div class="work-date">JUL 18TH, 2019</div>
+            <div class="work-time">11:00 AM - 3:00 PM</div>
+            <div class="job-place">House Flipper</div>
+            <div class="info-text">Published on <span creation-date>2019-07-28</span> by</div>
+            <div class="creator">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="creator-name">Tiffany Heffner</p>
+                <p class="creator-phone">(555) 555-4321</p>
+            </div>
+            <div class="info-text">Skills required:</div>
+            <ol class="rounded-list">
+                <li><a href="">English</a></li>
+                <li><a href="">Operation Room</a></li>
+                <li><a href="">RN</a></li>
+            </ol>
+            <div class="info-text">User first to accept:</div>
+            <div class="user">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="user-name">Ethan Klein</p>
+            </div>
+            <div class="info-text">Users who received an application:</div>
+            <div class="avatars">
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="round-Panel">
+                    <p>
+                        +15
+                    </p>
+                </li>
+            </div>
+            <div class="status"> <span class="submitted">Submitted</span></div>
+        </div>
+
+        <div class="card">
+            <div class="work-date">JUL 18TH, 2019</div>
+            <div class="work-time">11:00 AM - 3:00 PM</div>
+            <div class="job-place">House Flipper</div>
+            <div class="info-text">Published on <span creation-date>2019-07-28</span> by</div>
+            <div class="creator">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="creator-name">Tiffany Heffner</p>
+                <p class="creator-phone">(555) 555-4321</p>
+            </div>
+            <div class="info-text">Skills required:</div>
+            <ol class="rounded-list">
+                <li><a href="">English</a></li>
+                <li><a href="">Operation Room</a></li>
+                <li><a href="">RN</a></li>
+            </ol>
+            <div class="info-text">User first to accept:</div>
+            <div class="user">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="user-name">Ethan Klein</p>
+            </div>
+            <div class="info-text">Users who received an application:</div>
+            <div class="avatars">
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="round-Panel">
+                    <p>
+                        +15
+                    </p>
+                </li>
+            </div>
+            <div class="status"> <span class="pending">Pending</span></div>
+        </div>
+
+        <div class="card">
+            <div class="work-date">JUL 18TH, 2019</div>
+            <div class="work-time">11:00 AM - 3:00 PM</div>
+            <div class="job-place">House Flipper</div>
+            <div class="info-text">Published on <span creation-date>2019-07-28</span> by</div>
+            <div class="creator">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="creator-name">Tiffany Heffner</p>
+                <p class="creator-phone">(555) 555-4321</p>
+            </div>
+            <div class="info-text">Skills required:</div>
+            <ol class="rounded-list">
+                <li><a href="">English</a></li>
+                <li><a href="">Operation Room</a></li>
+                <li><a href="">RN</a></li>
+            </ol>
+            <div class="info-text">User first to accept:</div>
+            <div class="user">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="user-name">Ethan Klein</p>
+            </div>
+            <div class="info-text">Users who received an application:</div>
+            <div class="avatars">
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="round-Panel">
+                    <p>
+                        +15
+                    </p>
+                </li>
+            </div>
+            <div class="status"> <span class="paid">Paid</span></div>
+        </div>
+
+        <div class="card">
+            <div class="work-date">JUL 18TH, 2019</div>
+            <div class="work-time">11:00 AM - 3:00 PM</div>
+            <div class="job-place">House Flipper</div>
+            <div class="info-text">Published on <span creation-date>2019-07-28</span> by</div>
+            <div class="creator">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="creator-name">Tiffany Heffner</p>
+                <p class="creator-phone">(555) 555-4321</p>
+            </div>
+            <div class="info-text">Skills required:</div>
+            <ol class="rounded-list">
+                <li><a href="">English</a></li>
+                <li><a href="">Operation Room</a></li>
+                <li><a href="">RN</a></li>
+            </ol>
+            <div class="info-text">User first to accept:</div>
+            <div class="user">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="user-name">Ethan Klein</p>
+            </div>
+            <div class="info-text">Users who received an application:</div>
+            <div class="avatars">
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="round-Panel">
+                    <p>
+                        +15
+                    </p>
+                </li>
+            </div>
+            <div class="status"> <span class="paid">Paid</span></div>
+        </div>
+
+        <div class="card">
+            <div class="work-date">JUL 18TH, 2019</div>
+            <div class="work-time">11:00 AM - 3:00 PM</div>
+            <div class="job-place">House Flipper</div>
+            <div class="info-text">Published on <span creation-date>2019-07-28</span> by</div>
+            <div class="creator">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="creator-name">Tiffany Heffner</p>
+                <p class="creator-phone">(555) 555-4321</p>
+            </div>
+            <div class="info-text">Skills required:</div>
+            <ol class="rounded-list">
+                <li><a href="">English</a></li>
+                <li><a href="">Operation Room</a></li>
+                <li><a href="">RN</a></li>
+            </ol>
+            <div class="info-text">User first to accept:</div>
+            <div class="user">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="user-name">Ethan Klein</p>
+            </div>
+            <div class="info-text">Users who received an application:</div>
+            <div class="avatars">
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="round-Panel">
+                    <p>
+                        +15
+                    </p>
+                </li>
+            </div>
+            <div class="status"> <span class="paid">Paid</span></div>
+        </div>
+
+        <div class="card">
+            <div class="work-date">JUL 18TH, 2019</div>
+            <div class="work-time">11:00 AM - 3:00 PM</div>
+            <div class="job-place">House Flipper</div>
+            <div class="info-text">Published on <span creation-date>2019-07-28</span> by</div>
+            <div class="creator">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="creator-name">Tiffany Heffner</p>
+                <p class="creator-phone">(555) 555-4321</p>
+            </div>
+            <div class="info-text">Skills required:</div>
+            <ol class="rounded-list">
+                <li><a href="">English</a></li>
+                <li><a href="">Operation Room</a></li>
+                <li><a href="">RN</a></li>
+            </ol>
+            <div class="info-text">User first to accept:</div>
+            <div class="user">
+                <img class="avatar" src="./img/user_placeholder.png">
+                <p class="user-name">Ethan Klein</p>
+            </div>
+            <div class="info-text">Users who received an application:</div>
+            <div class="avatars">
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="avatar">
+                    <img src="./img/user_placeholder.png">
+                </li>
+                <li class="round-Panel">
+                    <p>
+                        +15
+                    </p>
+                </li>
+            </div>
+            <div class="status"> <span class="paid">Paid</span></div>
+        </div>
+    </div>
+</body>
+
+</html>
